@@ -36,6 +36,6 @@ const min = document.querySelector('.min');
 
 setInterval(time,1000);
 
-subbtn.addEventListener('click', () => {
+document.querySelector('.subbtn').addEventListener('click', () => {
     subbtn.classList.toggle('stop');
 })
